@@ -1,5 +1,8 @@
 # message 
 from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
 
 sys_prompt : str = """The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.
             User: Hello, who are you?
